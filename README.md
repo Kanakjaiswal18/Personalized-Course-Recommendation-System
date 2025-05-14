@@ -45,5 +45,6 @@ This project is a big data-driven recommendation system designed to help student
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/ddb483b7-b2d4-48e3-94b1-321036b9b718)
-![image](https://github.com/user-attachments/assets/b4f9f09a-6470-48db-9f0b-1a1c4468e4eb)
+![image](https://github.com/user-attachments/assets/30015e8e-d5ef-4838-acdc-196ecbd0f82f)
+![image](https://github.com/user-attachments/assets/94f944c7-1f4c-45bd-9d12-e98a9ef534bb)
+
