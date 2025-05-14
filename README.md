@@ -22,15 +22,23 @@ This project is a big data-driven recommendation system designed to help student
 - Embedding-Based Recommender: Learns semantic similarity using a custom PyTorch neural network
 - UI: Streamlit app with user input, sliders, radio buttons, and feedback form
 
+## Project Structure
+- **`main.py`** – Streamlit app that runs the course recommendation interface with both TF-IDF and deep learning models  
+- **`integrated_educational_courses.csv`** – Preprocessed and merged dataset used for generating recommendations  
+- **`feedback.csv`** – Stores user ratings and feedback from the app interface  
+- **`Data_Integration.ipynb`** – Jupyter notebook demonstrating data integration and schema matching using ADnEV  
+- **`requirements.txt`** – Specifies all Python packages required to install and run the application
+
 ## Dataset Sources
 - [Coursera Courses Dataset 2021](https://www.kaggle.com/datasets/khusheekapoor/coursera-courses-dataset-2021)
 - [Udemy Dataset](https://www.kaggle.com/datasets/shailx/course-recommendation-system-dataset)
 - [Personalized Recommendation Systems Dataset](https://www.kaggle.com/datasets/alfarisbachmid/personalized-recommendation-systems-dataset)
 - [Online Course Student Engagement Metrics](https://www.kaggle.com/datasets/thedevastator/online-course-student-engagement-metrics)
 
-## How to Run
-
-1. **Clone the repository**
+## How to Run the Project
+1. Install the required dependencies:
    ```bash
-   git clone https://github.com/yourusername/course-recommendation-system.git
-   cd course-recommendation-system
+   pip install -r requirements.txt
+2. Start the Streamlit application:
+   ```bash
+   streamlit run main.py
