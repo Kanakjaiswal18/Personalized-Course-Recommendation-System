@@ -42,3 +42,8 @@ This project is a big data-driven recommendation system designed to help student
 2. Start the Streamlit application:
    ```bash
    streamlit run main.py
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/ddb483b7-b2d4-48e3-94b1-321036b9b718)
+![image](https://github.com/user-attachments/assets/b4f9f09a-6470-48db-9f0b-1a1c4468e4eb)
